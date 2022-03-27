@@ -1,2 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+#header {
+    border: 1px solid #000000;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 1.3em;
+}
+
+#header-img {
+    height: 80%;
 }
