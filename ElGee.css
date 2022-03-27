@@ -12,7 +12,16 @@
     justify-content: space-between;
     padding: 5px 1.3em;
 }
-
+#header nav {
+    width: 20%;
+}
 #header-img {
     height: 80%;
+}
+
+#nav-bar ul{
+    list-style: none;
+}
+#nav-bar li{
+    display: inline;
 }
