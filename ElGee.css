@@ -21,10 +21,10 @@
 }
 
 #nav-bar ul{
-    display: flex;
     flex-grow: 2;
+    display: flex;
     list-style: none;
 }
 #nav-bar li{
-    display: inline;
+    padding: 0 7px;
 }
