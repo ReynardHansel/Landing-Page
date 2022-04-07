@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Nunito+Sans&display=swap');
+/* font-family: 'Metal Mania', cursive; */
+/* font-family: 'Nunito Sans', sans-serif; */
+@font-face {
+    font-family: 'Pastor of Muppets';
+    src: url(Fonts/Pastor\ of\ Muppets.TTF) format('truetype');
+}
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 #header {
@@ -18,7 +25,12 @@
 #header nav {
     max-width: 50%;
 }
-#header-img {
+#header p {
+    font-family: 'Metal Mania', cursive;
+    font-size: 2.2em;
+    font-style: italic;
+}
+#header img {
     height: 80%;
 }
 
@@ -28,5 +40,9 @@
     list-style: none;
 }
 #nav-bar li{
-    padding: 0 7px;
+    padding: 0 7px;    
+}
+#nav-bar a{
+    text-decoration: none;
+    color: #000000;
 }
