@@ -95,8 +95,33 @@
     align-items: center;
     justify-content: center;
     background-color:hsl(0, 0%, 7%);
-    padding: 15% 0;
+    padding-bottom: 3em;
+}
+.bonus-section span {
+    margin: 1.5em 0;
+    font-size: 1.7em;
+    font-style: italic;
 }
 .bonus-section img {
-    width: 3em;
+    width: 6vw;
+    margin: 30px 10px;
+}
+.bonus-section p {
+    display: inline;
+}
+.bonuses {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bonuses div {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0 3em;
+}
+.bonuses p {
+    font-size: 1.2em;
+    font-style: italic;
 }
