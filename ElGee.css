@@ -61,3 +61,26 @@
     width: 80%;
 
 }
+.landing-form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-style: italic;
+}
+.input-section {
+    margin-bottom: 40px;
+}
+.input-section div {
+    display: inline;
+}
+.input-section label {
+    font-size: 1.5em;
+    padding-right: .5em;
+}
+.input-section input {
+    background-color: rgba(87, 87, 87, 0.384);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.2em;
+}
