@@ -94,7 +94,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:hsl(0, 0%, 7%);
+    background-color:hsl(0, 0%, 5%);
     padding-bottom: 3em;
 }
 .bonus-section span {
@@ -118,7 +118,7 @@
 .bonuses div {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    /* justify-content: center; *//*activate in media query*/
     padding: 0 3em;
 }
 .bonuses p {
