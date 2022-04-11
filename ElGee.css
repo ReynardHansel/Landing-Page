@@ -139,3 +139,10 @@
     font-size: 1.7em;
     margin-bottom: 1.5em;
 }
+.guitars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+}
+
+/* next: (li) make each individual li taller to fit bg img, delete the li bullet points, make the desc position (bottom) */
