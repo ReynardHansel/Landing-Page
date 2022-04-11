@@ -125,3 +125,10 @@
     font-size: 1.2em;
     font-style: italic;
 }
+
+.product-section {
+    background-image: url("product section bg 3.jpg");
+    background-size: cover;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    background-blend-mode: multiply;
+}
