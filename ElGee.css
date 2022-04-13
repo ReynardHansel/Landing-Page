@@ -141,14 +141,55 @@
 }
 .guitars {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-gap: 10%;
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+    /* grid-gap: 10%; */
 }
 .guitars li {
     list-style: none;
+    padding: 5%;
+    margin: 5%;
 }
 .guitars p:nth-of-type(1) {
     margin-bottom: 10%;
 }
+.guitars li:nth-of-type(1) {/*Rock*/
+    background-image: url("Guitars/Strat\ Classic.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: .5em;
+}
+.guitars li:nth-of-type(2) {/*Blues* (Red)*/
+    background-image: url("Guitars/Gibson\ ES\ 335\ red.jpg");
+    background-size: cover;
+    border-radius: .5em;
+}
+.guitars li:nth-of-type(3) {/*Indie* (Orange?)*/
+    background-image: url("Guitars/Rickenbacker\ 360.jpg");
+    background-size: cover;
+    border-radius: .5em;
+}
+.guitars li:nth-of-type(4) {/*Country* (Yellow)*/
+    background-image: url("Guitars/Telecaster.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: .5em;
+}
+.guitars li:nth-of-type(5) {/*Metal (Monochrome)*/
+    background-image: url("Guitars/Ibanez\ black.jpg");
+    background-size: cover;
+    border-radius: .5em;
+}
+.guitars li:nth-of-type(6) {/*Funk Yellow/brownish santuy color)*/
+    background-image: url("Guitars/strat\ +\ tele.jpg");
+    background-size: cover;
+    border-radius: .5em;
+}
+.guitars li:nth-of-type(7) {/*Jazz (Brown)*/
+    background-image: url("Guitars/Gibson-Custom-L-5-CES-001-VS_01.jpg");
+    background-size: cover;
+    border-radius: .5em;
+}
 
-/* next: (li) make each individual li taller to fit bg img, delete the li bullet points, make the desc position (bottom) */
+/* next: animate the bg color & box-shadow & desc <p> of each guitars to appear when in hover;
+Genre <p> appears in center when not hovered, when hovered change to desc (doesn't have o be centered)<p>;
+If you're feeling it, download fonts for each genre, ex: Blues font for Blues genre*/
