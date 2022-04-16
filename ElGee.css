@@ -6,6 +6,7 @@
     src: url(Fonts/Pastor\ of\ Muppets.TTF) format('truetype');
 }
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,6 +14,7 @@
     font-family: 'Nunito Sans', sans-serif;
     color: white;
 }
+
 
 #header {
     /* border: 1px solid #000000; */
@@ -48,6 +50,7 @@
     text-decoration: none;
     color: #000000;
 }
+
 
 .landing-section {
     display: flex;
@@ -89,6 +92,7 @@
     border-radius: 5px;
 }
 
+
 .bonus-section {
     display: flex;
     flex-direction: column;
@@ -125,6 +129,7 @@
     font-size: 1.2em;
     font-style: italic;
 }
+
 
 .product-section {
     background-image: url("product section bg 3.jpg");
@@ -179,7 +184,7 @@
     background-size: cover;
     border-radius: .5em;
 }
-.guitars li:nth-of-type(6) {/*Funk Yellow/brownish santuy color)*/
+.guitars li:nth-of-type(6) {/*Funk (Yellow/brownish santuy color; Goldish Brown?)*/
     background-image: url("Guitars/strat\ +\ tele.jpg");
     background-size: cover;
     border-radius: .5em;
