@@ -170,6 +170,7 @@
     border-radius: .5em;
     background-color: hsla(0, 0%, 0%, 0.5);
     background-blend-mode: multiply;
+    transition: all 250ms;
 }
 .guitars li:nth-of-type(2) {/*Blues* (Red)*/
     background-image: url("Guitars/Gibson\ ES\ 335\ red.jpg");
@@ -177,6 +178,7 @@
     border-radius: .5em;
     background-color: hsla(0, 0%, 0%, 0.5);
     background-blend-mode: multiply;
+    transition: all 250ms;
 }
 .guitars li:nth-of-type(3) {/*Indie* (Orange?)*/
     background-image: url("Guitars/Rickenbacker\ 360.jpg");
@@ -184,6 +186,7 @@
     border-radius: .5em;
     background-color: hsla(0, 0%, 0%, 0.5);
     background-blend-mode: multiply;
+    transition: all 250ms;
 }
 .guitars li:nth-of-type(4) {/*Country* (Yellow)*/
     background-image: url("Guitars/Telecaster.jpg");
@@ -192,6 +195,7 @@
     border-radius: .5em;
     background-color: hsla(0, 0%, 0%, 0.5);
     background-blend-mode: multiply;
+    transition: all 250ms;
 }
 .guitars li:nth-of-type(5) {/*Metal (Monochrome)*/
     background-image: url("Guitars/Ibanez\ black.jpg");
@@ -199,6 +203,7 @@
     border-radius: .5em;
     background-color: hsla(0, 0%, 0%, 0.5);
     background-blend-mode: multiply;
+    transition: all 250ms;
 }
 .guitars li:nth-of-type(6) {/*Funk (Yellow/brownish santuy color; Goldish Brown?)*/
     background-image: url("Guitars/strat\ +\ tele.jpg");
@@ -206,6 +211,7 @@
     border-radius: .5em;
     background-color: hsla(0, 0%, 0%, 0.5);
     background-blend-mode: multiply;
+    transition: all 250ms;
 }
 .guitars li:nth-of-type(7) {/*Jazz (Brown)*/
     background-image: url("Guitars/Gibson-Custom-L-5-CES-001-VS_01.jpg");
@@ -213,7 +219,30 @@
     border-radius: .5em;
     background-color: hsla(0, 0%, 0%, 0.5);
     background-blend-mode: multiply;
+    transition: all 250ms;
 }
-/* next: animate the bg color & box-shadow & desc <p> of each guitars to appear when in hover;
-Genre <p> appears in center when not hovered, when hovered change to desc (doesn't have o be centered)<p>;
-If you're feeling it, download fonts for each genre, ex: Blues font for Blues genre*/
+.Rock:hover, .Blues:hover, .Indie:hover, .Country:hover, .Metal:hover, .Funk:hover, .Jazz:hover {
+    transform: scale(110%);
+}
+.Rock:hover {
+    box-shadow: 0 0 25px hsl(0, 0%, 100%);
+}
+.Blues:hover {
+    box-shadow: 0 0 30px red;
+}
+.Indie:hover {
+    box-shadow: 0 0 30px orangered;
+}
+.Country:hover {
+    box-shadow: 0 0 30px yellow;
+}
+.Metal:hover {
+    box-shadow: 1px 1px 40px hsl(0, 0%, 30%);
+}
+.Funk:hover {
+    box-shadow: 1px 1px 40px hsl(36, 76%, 34%);
+}
+.Jazz:hover {
+    box-shadow: 0 0 30px hsl(29, 81%, 25%);
+}
+/* next: */
