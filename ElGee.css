@@ -50,6 +50,7 @@
 #nav-bar a{
     text-decoration: none;
     color: #000000;
+    font-weight: 580;
 }
 
 
@@ -60,13 +61,13 @@
     justify-content: space-around;
     background-image: url("Name Email bg.jpg");
     background-size: cover;
-    background-color: hsla(0, 0%, 0%, 0.55);
+    background-color: hsla(0, 0%, 0%, 0.7);
     background-blend-mode: multiply;
     /* background-position: ; */
     height: 91vh;
 }
 .landing-section img {
-    width: 80%;
+    max-width: 70%;
 
 }
 .landing-form {
@@ -267,5 +268,34 @@
     min-width: 425px;
     min-height: 250px;
     padding: 0 auto;
+}
+
+
+
+@media(min-width: 50em) {
+    .landing-section {
+        flex-direction: row;
+        /* gap: 100px; */
+    }
+    .landing-section img {
+        max-width: 40%;
+    }
+    .input-section {
+        display: flex;
+        flex-direction: column;
+        /* text-align: end; */
+        margin-left: -20vw;
+        transform:scale(1.15);
+    }
+    .bonuses div {
+        justify-content: center;
+        transform: translateX(-2vw);
+    }
+    .bonus-section p {
+        font-size: calc(100% + 1vw);
+    }
+    .bonus-section span {
+        font-size: calc(100% + 1.1vw);
+    }
 }
 /* next: media queries*/
