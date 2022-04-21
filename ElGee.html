@@ -22,7 +22,7 @@
 
     <section class="landing-section">
         <img src="Disc 30_1.png">
-        <form class="landing-form">
+        <form class="landing-form" id="form">
 
             <div class="input-section">
                 <div>
@@ -38,8 +38,12 @@
                     <label for="email">Email</label>
                 </div>
                 <div>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" placeholder="Your best email here">
                 </div>
+            </div>
+
+            <div class="submit-section">
+                <input type="submit" id="submit" value="Give me the discount code now!" class="submit-btn"/>
             </div>
             
         </form>
@@ -104,7 +108,7 @@
             <div>
                 <p>'50s Stratocaster demo by Tyler Bryant</p>
             </div>
-            <iframe src="https://www.youtube.com/embed/ncrJAhodBIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="video" src="https://www.youtube.com/embed/ncrJAhodBIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
     </section>
 
