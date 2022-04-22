@@ -69,6 +69,7 @@
     background-blend-mode: multiply;
     /* background-position: ; */
     height: 91vh;
+    gap: 10vw;
 }
 .landing-section img {
     max-width: 70%;
@@ -118,6 +119,7 @@
     width: 80%;
     padding: 15px 50px;
     font-size: 1.2em;
+    font-style: italic;
     margin-bottom: 40px;
     cursor: pointer;
 
@@ -306,10 +308,14 @@
 
 
 
-@media(min-width: 50em) {
+@media(min-width: 45em) {
+    .landing-form {
+        display: flex;
+        flex-direction: column;
+        margin-left: -20vw;
+    }
     .landing-section {
         flex-direction: row;
-        /* gap: 100px; */
     }
     .landing-section img {
         max-width: 40%;
@@ -318,7 +324,6 @@
         display: flex;
         flex-direction: column;
         /* text-align: end; */
-        margin-left: -20vw;
         transform:scale(1.15);
     }
     .bonuses div {
@@ -330,6 +335,14 @@
     }
     .bonus-section span {
         font-size: calc(100% + 1.1vw);
+    }
+    .submit-section {
+        position: relative;
+        top: 7vh;
+    }
+    .submit-btn {
+    padding: 25px 55px;
+    font-weight: bolder;
     }
 }
 /* next: 
