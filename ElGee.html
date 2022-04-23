@@ -15,21 +15,21 @@
             <ul>
                 <li><a href="#collection" class="nav-link">Collection</a></li>
                 <li><a href="#demo" class="nav-link">Demo</a></li>
-                <li><a href="discount" class="nav-link">Discount</a></li>
+                <li><a href="#discount" class="nav-link">Discount</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="landing-section">
+    <section class="landing-section" id="discount">
         <img src="Disc 30_1.png">
-        <form class="landing-form" id="form">
+        <form class="landing-form" id="form" action="https://www.freecodecamp.com/email-submit">
 
             <div class="input-section">
                 <div>
                     <label for="Name">Name</label>
                 </div>
                 <div>
-                    <input type="text" id="Name" name="Name">
+                    <input type="text" id="Name" name="Name" required>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@
                     <label for="email">Email</label>
                 </div>
                 <div>
-                    <input type="email" id="email" name="email" placeholder="Your best email here">
+                    <input type="email" id="email" name="email" placeholder="Your best email here" required>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@
         </div>
     </section>
 
-    <section class="product-section">
+    <section class="product-section" id="collection">
         <div class="collection-introduction">
             <p>Our best collection for each genre</p>
         </div>
@@ -104,7 +104,7 @@
                 <p>The Gibson L-5 is the best guitar for pure jazz players. Its fully hollow body may feel more like an acoustic guitar to unfamiliar players</p>
             </li>
         </ul>
-        <section class="demo-section">
+        <section class="demo-section" id="demo">
             <div>
                 <p>'50s Stratocaster demo by Tyler Bryant</p>
             </div>
